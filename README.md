@@ -119,3 +119,28 @@ flake8 .
 ## Test Results
 
 All test results are automatically saved in standardized JSON format with accompanying visualization charts for trajectory-based tests. Results are organized by user ID and timestamp for easy analysis and comparison.
+
+## Generate De-identified Test Data
+
+`create_deidentified_test_data.py` is designed to work with the raw JSON and image outputs produced by `main.py` and the individual test scripts. It accepts any of the following as `--source-root`:
+
+- the repository root, when results are stored under `data/results` and `data/images`
+- the `data/` directory itself
+- a legacy exported root that still contains `data/results` and `data/images`
+
+Example workflow:
+
+```bash
+# 1. Run tests and collect raw data
+uv run python main.py
+
+# 2. Generate the de-identified bundle from the current repo data/
+uv run python create_deidentified_test_data.py
+
+# 3. Or point to a different source/output location explicitly
+uv run python create_deidentified_test_data.py --source-root data --output-root /tmp/deidentified_test_data
+```
+
+The generated files will be written to `deidentified_test_data/` by default. Before sharing, review the output bundle to make sure it matches the data you intend to publish.
+
+If you regenerate `deidentified_test_data/` from new `main.py` output, you can commit the refreshed de-identified dataset and open a PR back to this repository with the updated files.

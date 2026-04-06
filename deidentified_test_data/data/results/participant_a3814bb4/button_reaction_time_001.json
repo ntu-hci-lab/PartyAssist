@@ -1,0 +1,94 @@
+{
+  "user_id": "participant_a3814bb4",
+  "test_name": "button_reaction_time",
+  "parameters": {
+    "metadata": {
+      "test_version": "1.0",
+      "data_format_version": "1.0",
+      "description": "簡單反應時間測試，測試對視覺刺激的基本反應速度",
+      "data_definitions": {
+        "time_units": "reaction_time以秒為單位，reaction_time_ms以毫秒為單位",
+        "reaction_time_definition": "從紅色刺激出現到使用者按下任意按鍵的時間",
+        "stimulus_description": "圓形從白色變為紅色作為GO信號",
+        "premature_response": "在刺激出現前按鍵視為無效，需重新測試"
+      }
+    },
+    "window_size": {
+      "width": 1200,
+      "height": 800
+    },
+    "total_trials": 10,
+    "stimulus_delay_range_ms": [
+      1000,
+      3000
+    ],
+    "test_procedure": {
+      "wait_signal": "圓形顯示為白色",
+      "go_signal": "圓形變為紅色",
+      "response_window": "刺激出現後無時間限制",
+      "inter_trial_interval_ms": 1000,
+      "premature_response_handling": "重新開始當前測試"
+    }
+  },
+  "metrics": {
+    "total_trials": 10,
+    "average_reaction_time_ms": 345.9911108016968,
+    "minimum_reaction_time_ms": 246.23680114746094,
+    "maximum_reaction_time_ms": 501.71899795532227,
+    "trials": [
+      {
+        "trial_number": 1,
+        "reaction_time_ms": 320.82390785217285,
+        "reaction_time_seconds": 0.32082390785217285
+      },
+      {
+        "trial_number": 2,
+        "reaction_time_ms": 246.23680114746094,
+        "reaction_time_seconds": 0.24623680114746094
+      },
+      {
+        "trial_number": 3,
+        "reaction_time_ms": 462.1131420135498,
+        "reaction_time_seconds": 0.4621131420135498
+      },
+      {
+        "trial_number": 4,
+        "reaction_time_ms": 501.71899795532227,
+        "reaction_time_seconds": 0.5017189979553223
+      },
+      {
+        "trial_number": 5,
+        "reaction_time_ms": 278.64813804626465,
+        "reaction_time_seconds": 0.27864813804626465
+      },
+      {
+        "trial_number": 6,
+        "reaction_time_ms": 329.833984375,
+        "reaction_time_seconds": 0.329833984375
+      },
+      {
+        "trial_number": 7,
+        "reaction_time_ms": 274.5788097381592,
+        "reaction_time_seconds": 0.2745788097381592
+      },
+      {
+        "trial_number": 8,
+        "reaction_time_ms": 410.900354385376,
+        "reaction_time_seconds": 0.410900354385376
+      },
+      {
+        "trial_number": 9,
+        "reaction_time_ms": 336.6260528564453,
+        "reaction_time_seconds": 0.3366260528564453
+      },
+      {
+        "trial_number": 10,
+        "reaction_time_ms": 298.4309196472168,
+        "reaction_time_seconds": 0.2984309196472168
+      }
+    ]
+  },
+  "age": 22,
+  "controller_usage_frequency": 2,
+  "controller_usage_frequency_description": "1=從來沒用過, 7=每天使用"
+}

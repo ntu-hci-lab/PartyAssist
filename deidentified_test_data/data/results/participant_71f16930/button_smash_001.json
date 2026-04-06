@@ -1,0 +1,145 @@
+{
+  "user_id": "participant_71f16930",
+  "test_name": "button_smash",
+  "parameters": {
+    "metadata": {
+      "test_version": "1.0",
+      "data_format_version": "1.0",
+      "description": "按鍵連擊速度測試，測試在固定時間內的最大點擊頻率",
+      "data_definitions": {
+        "time_units": "test_duration以秒為單位",
+        "cps_calculation": "CPS = 總點擊數 ÷ 測試持續時間",
+        "timing_start": "第一次點擊開始計時，而非測試開始時計時",
+        "click_definition": "任意按鍵按下都計為一次點擊"
+      }
+    },
+    "window_size": {
+      "width": 1200,
+      "height": 800
+    },
+    "test_duration_seconds": 10.0,
+    "button_position": {
+      "x": 600,
+      "y": 400,
+      "radius": 80
+    },
+    "test_mechanics": {
+      "timing_trigger": "第一次點擊開始計時",
+      "duration_fixed": "10.0秒固定時間",
+      "visual_feedback": "X符號顯示點擊，圓形保持白色",
+      "accessibility": "依靠X符號而非顏色變化提供回饋"
+    }
+  },
+  "metrics": {
+    "total_clicks": 15,
+    "test_duration_seconds": 10.0,
+    "clicks_per_second": 1.5,
+    "performance_rating": "初學者",
+    "click_timestamps": [
+      {
+        "click_number": 1,
+        "absolute_time": 1754118692.3595788,
+        "relative_time_ms": 0.4889965057373047
+      },
+      {
+        "click_number": 2,
+        "absolute_time": 1754118693.202793,
+        "relative_time_ms": 843.703031539917
+      },
+      {
+        "click_number": 3,
+        "absolute_time": 1754118693.914037,
+        "relative_time_ms": 1554.9471378326416
+      },
+      {
+        "click_number": 4,
+        "absolute_time": 1754118694.475282,
+        "relative_time_ms": 2116.192102432251
+      },
+      {
+        "click_number": 5,
+        "absolute_time": 1754118695.041207,
+        "relative_time_ms": 2682.117223739624
+      },
+      {
+        "click_number": 6,
+        "absolute_time": 1754118695.601486,
+        "relative_time_ms": 3242.396116256714
+      },
+      {
+        "click_number": 7,
+        "absolute_time": 1754118696.072665,
+        "relative_time_ms": 3713.5751247406006
+      },
+      {
+        "click_number": 8,
+        "absolute_time": 1754118696.615264,
+        "relative_time_ms": 4256.174087524414
+      },
+      {
+        "click_number": 9,
+        "absolute_time": 1754118697.145207,
+        "relative_time_ms": 4786.117076873779
+      },
+      {
+        "click_number": 10,
+        "absolute_time": 1754118697.549068,
+        "relative_time_ms": 5189.978122711182
+      },
+      {
+        "click_number": 11,
+        "absolute_time": 1754118698.770326,
+        "relative_time_ms": 6411.236047744751
+      },
+      {
+        "click_number": 12,
+        "absolute_time": 1754118699.5015712,
+        "relative_time_ms": 7142.481327056885
+      },
+      {
+        "click_number": 13,
+        "absolute_time": 1754118700.194046,
+        "relative_time_ms": 7834.956169128418
+      },
+      {
+        "click_number": 14,
+        "absolute_time": 1754118700.734061,
+        "relative_time_ms": 8374.971151351929
+      },
+      {
+        "click_number": 15,
+        "absolute_time": 1754118701.6952488,
+        "relative_time_ms": 9336.158990859985
+      }
+    ],
+    "rhythm_analysis": {
+      "click_intervals_ms": [
+        843.2140350341797,
+        711.2441062927246,
+        561.2449645996094,
+        565.925121307373,
+        560.2788925170898,
+        471.1790084838867,
+        542.5989627838135,
+        529.9429893493652,
+        403.86104583740234,
+        1221.2579250335693,
+        731.2452793121338,
+        692.4748420715332,
+        540.0149822235107,
+        961.1878395080566
+      ],
+      "average_interval_ms": 666.8335710253034,
+      "interval_variance": 44449.73967543213,
+      "rhythm_consistency": "高變異數表示節奏不穩定"
+    },
+    "temporal_distribution": {
+      "first_second_clicks": 2,
+      "last_second_clicks": 1,
+      "middle_period_clicks": 12
+    }
+  },
+  "age": 90,
+  "controller_usage_frequency": 1,
+  "controller_usage_frequency_description": "1=從來沒用過, 7=每天使用"
+}

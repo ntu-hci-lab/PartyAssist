@@ -1,0 +1,140 @@
+{
+  "user_id": "participant_073e65d4",
+  "test_name": "button_prediction_countdown",
+  "parameters": {
+    "metadata": {
+      "test_version": "1.0",
+      "data_format_version": "1.0",
+      "description": "太鼓達人風格預測反應時間測試，球從出現到目標點固定1000ms",
+      "data_definitions": {
+        "time_units": "所有時間以毫秒為單位，除非特別註明為秒",
+        "coordinate_system": "畫布座標系統，左上角為(0,0)",
+        "response_time_definition": "從球出現到使用者按下按鍵的時間（秒）",
+        "target_time_definition": "球到達目標區域的理想時間（固定1.0秒）",
+        "error_calculation": "response_time - target_time (負值=提前按，正值=延遲按)"
+      }
+    },
+    "window_size": {
+      "width": 1200,
+      "height": 800
+    },
+    "total_balls": 10,
+    "ball_movement_time_ms": 1000,
+    "ball_interval_ms": 500,
+    "ball_path": {
+      "start_x": 100,
+      "target_x": 840.0,
+      "end_x": 1150,
+      "y_position": 400,
+      "movement_description": "球從左側滑入，經過目標區域後滑出"
+    },
+    "timing_definitions": {
+      "ball_spawn_to_target": "球從出現到到達目標線的時間（1000ms）",
+      "continuous_mode": "多個球可同時在畫面上，間隔500ms生成"
+    }
+  },
+  "metrics": {
+    "total_trials": 10,
+    "successful_responses": 10,
+    "missed_responses": 0,
+    "success_rate_percentage": 100.0,
+    "average_error_ms": 118.61646175384521,
+    "minimum_error_ms": 28.328895568847656,
+    "maximum_error_ms": 233.31189155578613,
+    "trials": [
+      {
+        "trial_number": 1,
+        "response_time_seconds": 1.0283288955688477,
+        "target_time_seconds": 1.0,
+        "error_seconds": 0.028328895568847656,
+        "error_ms": 28.328895568847656,
+        "accuracy_ms": 28.328895568847656,
+        "feedback": "🎯 完美！"
+      },
+      {
+        "trial_number": 2,
+        "response_time_seconds": 1.0624959468841553,
+        "target_time_seconds": 1.0,
+        "error_seconds": 0.06249594688415527,
+        "error_ms": 62.49594688415527,
+        "accuracy_ms": 62.49594688415527,
+        "feedback": "👍 很好！"
+      },
+      {
+        "trial_number": 3,
+        "response_time_seconds": 1.098689079284668,
+        "target_time_seconds": 1.0,
+        "error_seconds": 0.09868907928466797,
+        "error_ms": 98.68907928466797,
+        "accuracy_ms": 98.68907928466797,
+        "feedback": "👍 很好！"
+      },
+      {
+        "trial_number": 4,
+        "response_time_seconds": 1.0584287643432617,
+        "target_time_seconds": 1.0,
+        "error_seconds": 0.05842876434326172,
+        "error_ms": 58.42876434326172,
+        "accuracy_ms": 58.42876434326172,
+        "feedback": "👍 很好！"
+      },
+      {
+        "trial_number": 5,
+        "response_time_seconds": 0.9216358661651611,
+        "target_time_seconds": 1.0,
+        "error_seconds": -0.07836413383483887,
+        "error_ms": -78.36413383483887,
+        "accuracy_ms": 78.36413383483887,
+        "feedback": "👍 很好！"
+      },
+      {
+        "trial_number": 6,
+        "response_time_seconds": 1.1558260917663574,
+        "target_time_seconds": 1.0,
+        "error_seconds": 0.15582609176635742,
+        "error_ms": 155.82609176635742,
+        "accuracy_ms": 155.82609176635742,
+        "feedback": "👌 不錯！"
+      },
+      {
+        "trial_number": 7,
+        "response_time_seconds": 1.2013428211212158,
+        "target_time_seconds": 1.0,
+        "error_seconds": 0.20134282112121582,
+        "error_ms": 201.34282112121582,
+        "accuracy_ms": 201.34282112121582,
+        "feedback": "💪 再練習一下！"
+      },
+      {
+        "trial_number": 8,
+        "response_time_seconds": 1.1343638896942139,
+        "target_time_seconds": 1.0,
+        "error_seconds": 0.13436388969421387,
+        "error_ms": 134.36388969421387,
+        "accuracy_ms": 134.36388969421387,
+        "feedback": "👌 不錯！"
+      },
+      {
+        "trial_number": 9,
+        "response_time_seconds": 1.1350131034851074,
+        "target_time_seconds": 1.0,
+        "error_seconds": 0.13501310348510742,
+        "error_ms": 135.01310348510742,
+        "accuracy_ms": 135.01310348510742,
+        "feedback": "👌 不錯！"
+      },
+      {
+        "trial_number": 10,
+        "response_time_seconds": 1.2333118915557861,
+        "target_time_seconds": 1.0,
+        "error_seconds": 0.23331189155578613,
+        "error_ms": 233.31189155578613,
+        "accuracy_ms": 233.31189155578613,
+        "feedback": "💪 再練習一下！"
+      }
+    ]
+  },
+  "age": 54,
+  "controller_usage_frequency": 1,
+  "controller_usage_frequency_description": "1=從來沒用過, 7=每天使用"
+}

@@ -1,0 +1,124 @@
+{
+  "user_id": "participant_d56f8595",
+  "test_name": "button_accuracy",
+  "parameters": {
+    "metadata": {
+      "test_version": "1.0",
+      "data_format_version": "1.0",
+      "description": "方向按鍵準確度測試，測試使用者對方向指示的反應準確度",
+      "data_definitions": {
+        "time_units": "response_time以秒為單位，response_time_ms以毫秒為單位",
+        "response_time_definition": "從方向指示出現到使用者按下按鍵的時間",
+        "accuracy_definition": "正確按下目標方向按鍵的比例",
+        "warmup_excluded": "第1回合為熱身，不計入統計"
+      }
+    },
+    "window_size": {
+      "width": 1200,
+      "height": 800
+    },
+    "total_trials": 10,
+    "directions": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "response_delay_range_ms": [
+      1000,
+      3000
+    ],
+    "test_flow": {
+      "warmup_trials": 1,
+      "formal_trials": 10,
+      "inter_trial_interval_ms": 1000,
+      "stimulus_randomization": "方向隨機出現"
+    }
+  },
+  "metrics": {
+    "total_trials": 9,
+    "correct_responses": 9,
+    "incorrect_responses": 0,
+    "accuracy_percentage": 100.0,
+    "error_rate": 0.0,
+    "average_response_time_ms": 392.3663563198513,
+    "average_response_time_seconds": 0.39236635631985134,
+    "trials": [
+      {
+        "trial_number": 1,
+        "target_direction": "right",
+        "response_direction": "right",
+        "correct": true,
+        "response_time_ms": 386.1827850341797,
+        "response_time_seconds": 0.3861827850341797
+      },
+      {
+        "trial_number": 2,
+        "target_direction": "up",
+        "response_direction": "up",
+        "correct": true,
+        "response_time_ms": 364.73703384399414,
+        "response_time_seconds": 0.36473703384399414
+      },
+      {
+        "trial_number": 3,
+        "target_direction": "up",
+        "response_direction": "up",
+        "correct": true,
+        "response_time_ms": 440.16504287719727,
+        "response_time_seconds": 0.44016504287719727
+      },
+      {
+        "trial_number": 4,
+        "target_direction": "right",
+        "response_direction": "right",
+        "correct": true,
+        "response_time_ms": 314.4550323486328,
+        "response_time_seconds": 0.3144550323486328
+      },
+      {
+        "trial_number": 5,
+        "target_direction": "left",
+        "response_direction": "left",
+        "correct": true,
+        "response_time_ms": 365.4351234436035,
+        "response_time_seconds": 0.3654351234436035
+      },
+      {
+        "trial_number": 6,
+        "target_direction": "left",
+        "response_direction": "left",
+        "correct": true,
+        "response_time_ms": 490.54598808288574,
+        "response_time_seconds": 0.49054598808288574
+      },
+      {
+        "trial_number": 7,
+        "target_direction": "up",
+        "response_direction": "up",
+        "correct": true,
+        "response_time_ms": 367.39206314086914,
+        "response_time_seconds": 0.36739206314086914
+      },
+      {
+        "trial_number": 8,
+        "target_direction": "down",
+        "response_direction": "down",
+        "correct": true,
+        "response_time_ms": 388.3230686187744,
+        "response_time_seconds": 0.3883230686187744
+      },
+      {
+        "trial_number": 9,
+        "target_direction": "up",
+        "response_direction": "up",
+        "correct": true,
+        "response_time_ms": 414.0610694885254,
+        "response_time_seconds": 0.4140610694885254
+      }
+    ]
+  },
+  "age": 20,
+  "controller_usage_frequency": 2,
+  "controller_usage_frequency_description": "1=從來沒用過, 7=每天使用"
+}

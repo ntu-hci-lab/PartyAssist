@@ -1,0 +1,367 @@
+{
+  "user_id": "participant_4ae38a3b",
+  "test_name": "button_smash",
+  "parameters": {
+    "metadata": {
+      "test_version": "1.0",
+      "data_format_version": "1.0",
+      "description": "按鍵連擊速度測試，測試在固定時間內的最大點擊頻率",
+      "data_definitions": {
+        "time_units": "test_duration以秒為單位",
+        "cps_calculation": "CPS = 總點擊數 ÷ 測試持續時間",
+        "timing_start": "第一次點擊開始計時，而非測試開始時計時",
+        "click_definition": "任意按鍵按下都計為一次點擊"
+      }
+    },
+    "window_size": {
+      "width": 1200,
+      "height": 800
+    },
+    "test_duration_seconds": 10.0,
+    "button_position": {
+      "x": 600,
+      "y": 400,
+      "radius": 80
+    },
+    "test_mechanics": {
+      "timing_trigger": "第一次點擊開始計時",
+      "duration_fixed": "10.0秒固定時間",
+      "visual_feedback": "X符號顯示點擊，圓形保持白色",
+      "accessibility": "依靠X符號而非顏色變化提供回饋"
+    }
+  },
+  "metrics": {
+    "total_clicks": 52,
+    "test_duration_seconds": 10.0,
+    "clicks_per_second": 5.2,
+    "performance_rating": "需要練習",
+    "click_timestamps": [
+      {
+        "click_number": 1,
+        "absolute_time": 1755434973.9420319,
+        "relative_time_ms": 20.301103591918945
+      },
+      {
+        "click_number": 2,
+        "absolute_time": 1755434974.0764027,
+        "relative_time_ms": 154.67190742492676
+      },
+      {
+        "click_number": 3,
+        "absolute_time": 1755434974.2727947,
+        "relative_time_ms": 351.06396675109863
+      },
+      {
+        "click_number": 4,
+        "absolute_time": 1755434974.4483962,
+        "relative_time_ms": 526.665449142456
+      },
+      {
+        "click_number": 5,
+        "absolute_time": 1755434974.628233,
+        "relative_time_ms": 706.5021991729736
+      },
+      {
+        "click_number": 6,
+        "absolute_time": 1755434974.8038974,
+        "relative_time_ms": 882.1666240692139
+      },
+      {
+        "click_number": 7,
+        "absolute_time": 1755434974.9840991,
+        "relative_time_ms": 1062.368392944336
+      },
+      {
+        "click_number": 8,
+        "absolute_time": 1755434975.1599262,
+        "relative_time_ms": 1238.1954193115234
+      },
+      {
+        "click_number": 9,
+        "absolute_time": 1755434975.3360121,
+        "relative_time_ms": 1414.2813682556152
+      },
+      {
+        "click_number": 10,
+        "absolute_time": 1755434975.5242167,
+        "relative_time_ms": 1602.4858951568604
+      },
+      {
+        "click_number": 11,
+        "absolute_time": 1755434975.7042956,
+        "relative_time_ms": 1782.5648784637451
+      },
+      {
+        "click_number": 12,
+        "absolute_time": 1755434975.8928504,
+        "relative_time_ms": 1971.1196422576904
+      },
+      {
+        "click_number": 13,
+        "absolute_time": 1755434976.0648613,
+        "relative_time_ms": 2143.1305408477783
+      },
+      {
+        "click_number": 14,
+        "absolute_time": 1755434976.2480476,
+        "relative_time_ms": 2326.3168334960938
+      },
+      {
+        "click_number": 15,
+        "absolute_time": 1755434976.4365742,
+        "relative_time_ms": 2514.843463897705
+      },
+      {
+        "click_number": 16,
+        "absolute_time": 1755434976.6240408,
+        "relative_time_ms": 2702.310085296631
+      },
+      {
+        "click_number": 17,
+        "absolute_time": 1755434976.808601,
+        "relative_time_ms": 2886.8701457977295
+      },
+      {
+        "click_number": 18,
+        "absolute_time": 1755434976.9847484,
+        "relative_time_ms": 3063.0176067352295
+      },
+      {
+        "click_number": 19,
+        "absolute_time": 1755434977.164477,
+        "relative_time_ms": 3242.746353149414
+      },
+      {
+        "click_number": 20,
+        "absolute_time": 1755434977.340693,
+        "relative_time_ms": 3418.962240219116
+      },
+      {
+        "click_number": 21,
+        "absolute_time": 1755434977.539954,
+        "relative_time_ms": 3618.223190307617
+      },
+      {
+        "click_number": 22,
+        "absolute_time": 1755434977.7326415,
+        "relative_time_ms": 3810.910701751709
+      },
+      {
+        "click_number": 23,
+        "absolute_time": 1755434977.9203873,
+        "relative_time_ms": 3998.6565113067627
+      },
+      {
+        "click_number": 24,
+        "absolute_time": 1755434978.1240933,
+        "relative_time_ms": 4202.362537384033
+      },
+      {
+        "click_number": 25,
+        "absolute_time": 1755434978.3046675,
+        "relative_time_ms": 4382.936716079712
+      },
+      {
+        "click_number": 26,
+        "absolute_time": 1755434978.5004525,
+        "relative_time_ms": 4578.721761703491
+      },
+      {
+        "click_number": 27,
+        "absolute_time": 1755434978.684152,
+        "relative_time_ms": 4762.421131134033
+      },
+      {
+        "click_number": 28,
+        "absolute_time": 1755434978.8921041,
+        "relative_time_ms": 4970.3733921051025
+      },
+      {
+        "click_number": 29,
+        "absolute_time": 1755434979.0843642,
+        "relative_time_ms": 5162.633419036865
+      },
+      {
+        "click_number": 30,
+        "absolute_time": 1755434979.2880259,
+        "relative_time_ms": 5366.295099258423
+      },
+      {
+        "click_number": 31,
+        "absolute_time": 1755434979.4800103,
+        "relative_time_ms": 5558.279514312744
+      },
+      {
+        "click_number": 32,
+        "absolute_time": 1755434979.6807952,
+        "relative_time_ms": 5759.064435958862
+      },
+      {
+        "click_number": 33,
+        "absolute_time": 1755434979.876627,
+        "relative_time_ms": 5954.8962116241455
+      },
+      {
+        "click_number": 34,
+        "absolute_time": 1755434980.0766385,
+        "relative_time_ms": 6154.907703399658
+      },
+      {
+        "click_number": 35,
+        "absolute_time": 1755434980.2842898,
+        "relative_time_ms": 6362.559080123901
+      },
+      {
+        "click_number": 36,
+        "absolute_time": 1755434980.472801,
+        "relative_time_ms": 6551.070213317871
+      },
+      {
+        "click_number": 37,
+        "absolute_time": 1755434980.684332,
+        "relative_time_ms": 6762.601137161255
+      },
+      {
+        "click_number": 38,
+        "absolute_time": 1755434980.8804145,
+        "relative_time_ms": 6958.683729171753
+      },
+      {
+        "click_number": 39,
+        "absolute_time": 1755434981.0686133,
+        "relative_time_ms": 7146.8825340271
+      },
+      {
+        "click_number": 40,
+        "absolute_time": 1755434981.288106,
+        "relative_time_ms": 7366.375207901001
+      },
+      {
+        "click_number": 41,
+        "absolute_time": 1755434981.480284,
+        "relative_time_ms": 7558.553218841553
+      },
+      {
+        "click_number": 42,
+        "absolute_time": 1755434981.6919355,
+        "relative_time_ms": 7770.204782485962
+      },
+      {
+        "click_number": 43,
+        "absolute_time": 1755434981.8884435,
+        "relative_time_ms": 7966.712713241577
+      },
+      {
+        "click_number": 44,
+        "absolute_time": 1755434982.104493,
+        "relative_time_ms": 8182.762145996094
+      },
+      {
+        "click_number": 45,
+        "absolute_time": 1755434982.3160722,
+        "relative_time_ms": 8394.341468811035
+      },
+      {
+        "click_number": 46,
+        "absolute_time": 1755434982.5168037,
+        "relative_time_ms": 8595.072984695435
+      },
+      {
+        "click_number": 47,
+        "absolute_time": 1755434982.7162838,
+        "relative_time_ms": 8794.55304145813
+      },
+      {
+        "click_number": 48,
+        "absolute_time": 1755434982.928858,
+        "relative_time_ms": 9007.127285003662
+      },
+      {
+        "click_number": 49,
+        "absolute_time": 1755434983.1406746,
+        "relative_time_ms": 9218.94383430481
+      },
+      {
+        "click_number": 50,
+        "absolute_time": 1755434983.340652,
+        "relative_time_ms": 9418.92123222351
+      },
+      {
+        "click_number": 51,
+        "absolute_time": 1755434983.5442657,
+        "relative_time_ms": 9622.534990310669
+      },
+      {
+        "click_number": 52,
+        "absolute_time": 1755434983.768436,
+        "relative_time_ms": 9846.705198287964
+      }
+    ],
+    "rhythm_analysis": {
+      "click_intervals_ms": [
+        134.3708038330078,
+        196.39205932617188,
+        175.60148239135742,
+        179.83675003051758,
+        175.66442489624023,
+        180.20176887512207,
+        175.8270263671875,
+        176.0859489440918,
+        188.20452690124512,
+        180.07898330688477,
+        188.5547637939453,
+        172.0108985900879,
+        183.18629264831543,
+        188.52663040161133,
+        187.46662139892578,
+        184.56006050109863,
+        176.1474609375,
+        179.72874641418457,
+        176.21588706970215,
+        199.26095008850098,
+        192.6875114440918,
+        187.7458095550537,
+        203.7060260772705,
+        180.5741786956787,
+        195.7850456237793,
+        183.699369430542,
+        207.95226097106934,
+        192.2600269317627,
+        203.66168022155762,
+        191.9844150543213,
+        200.78492164611816,
+        195.8317756652832,
+        200.0114917755127,
+        207.65137672424316,
+        188.51113319396973,
+        211.5309238433838,
+        196.08259201049805,
+        188.19880485534668,
+        219.49267387390137,
+        192.17801094055176,
+        211.65156364440918,
+        196.50793075561523,
+        216.0494327545166,
+        211.5793228149414,
+        200.7315158843994,
+        199.4800567626953,
+        212.57424354553223,
+        211.81654930114746,
+        199.97739791870117,
+        203.6137580871582,
+        224.17020797729492
+      ],
+      "average_interval_ms": 192.6745900920793,
+      "interval_variance": 234.9741840371539,
+      "rhythm_consistency": "低變異數表示節奏穩定"
+    },
+    "temporal_distribution": {
+      "first_second_clicks": 6,
+      "last_second_clicks": 5,
+      "middle_period_clicks": 41
+    }
+  },
+  "age": 47,
+  "controller_usage_frequency": 2,
+  "controller_usage_frequency_description": "1=從來沒用過, 7=每天使用"
+}
